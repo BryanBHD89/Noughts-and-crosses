@@ -1,0 +1,541 @@
+
+
+body{
+  
+    margin: 0;
+    height: 100vh;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px black;
+    max-height: 1000px;
+}
+
+.image{
+    height: 1200px;
+    background: url("./jon-tyson-eTjX8xc1in8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+   background-color: turquoise;
+  
+   margin: 0;
+   padding-bottom: 5em;
+    
+}
+
+button{
+    font-family: 'Permanent Marker', cursive;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    position: relative;
+    display: block;
+    text-align: center;
+    display: none;
+    font-size: 2rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: turquoise;
+    border: 2px solid white;
+    margin-bottom: 0px;
+    margin-top: 2rem;
+  
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 3rem;
+}
+
+
+
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+ 
+    
+}
+
+.player {
+    text-align: center;
+    margin-top: 0;
+}
+
+.won{
+  
+    margin: 0;
+    
+}
+
+.x{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+     display: none;
+     padding: 0px 0px;
+}
+
+.x2{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+     display: none;
+     padding: 0px 0px;
+}
+
+.x3{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+
+.x4{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.x5{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.x6{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.x7{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.x8{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.x9{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+
+
+
+.o{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+     
+}
+
+.o2{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.o3{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+
+.o4{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.o5{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.o6{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.o7{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+     display: none;
+     padding: 0px 0px;
+}
+
+.o8{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+.o9{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0px 0px;
+    
+     display: none;
+     padding: 0px 0px;
+}
+
+
+
+
+.data-cell{
+    border: 5px solid white;
+    height: 300px;
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    object-fit: contain;
+    opacity: 1;
+  
+}
+
+.data-cell2{
+    border: 5px solid white;
+    border-left: none;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    
+}
+
+.data-cell3{
+    border: 5px solid white;
+    border-left: none;
+    border-bottom: none;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  
+}
+
+.data-cell4{
+    border: 5px solid white;
+    border-top: none;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  
+}
+
+.data-cell5{
+    border: 5px solid white;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  
+}
+
+.data-cell6{
+    border: 5px solid white;
+    
+    border-bottom: none;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  
+}
+
+.data-cell7{
+    border: 5px solid white;
+    
+    border-top: none;
+    border-right: none;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  
+}
+
+.data-cell8{
+    border: 5px solid white;
+    
+    border-right: none;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  
+}
+
+.data-cell9{
+    border: 5px solid white;
+    border-bottom: none;
+    border-right: none;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.attribute{
+   
+  
+    font-size: 3rem;
+}
+@media screen and (max-width: 1200px) {
+    body{
+        min-height: 1200px;
+    }
+    .data-cell{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell2{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell3{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell4{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell5{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell6{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell7{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell8{
+        height: 150px;
+        width: 150px;
+    }
+    .data-cell9{
+        height: 150px;
+        width: 150px;
+    }
+    h1{
+        font-size: 1.5rem;
+        padding-top: 20px;
+    }
+    .image{
+        max-height: 1200px;
+    }
+    .player{
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+    .attribute{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .o{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o2{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o3{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o4{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o5{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o6{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o7{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o8{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .o9{
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .bottom{
+        margin-top: 5rem;
+    }
+  }
+
+
+@media screen and (max-width: 800px) {
+    body{
+        max-height: 800px;
+    }
+    .data-cell{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell2{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell3{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell4{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell5{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell6{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell7{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell8{
+        height: 100px;
+        width: 100px;
+    }
+    .data-cell9{
+        height: 100px;
+        width: 100px;
+    }
+    h1{
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+    .image{
+        max-height: 800px;
+    }
+    .player{
+        font-size: 1rem;
+        margin-bottom: 5rem;
+    }
+    .attribute{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .o{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o2{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o3{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o4{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o5{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o6{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o7{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o8{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .o9{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .bottom{
+        margin-top: 5rem;
+    }
+  }
